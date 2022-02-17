@@ -1,0 +1,43 @@
+#mapContainer{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50;
+  bottom: 50;
+  width: 100%;
+  flex-grow: 1
+}
+
+/* I'm not sure this did anything to my format */
+.container {
+  display: flex;
+  height: 100%
+}
+
+
+html, body {
+  background-color: #dcdfe8;
+  margin: 0;
+  height: 100%
+}
+
+.center {
+text-align: center;
+}
+
+/* for my title */
+.main-body-text {
+  color: #2e4182;
+}
+
+.secondary-text {
+  color: #2e4182;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.other-text {
+  color: black;
+  font-style: italic;
+  font-size: 16px;
+}
